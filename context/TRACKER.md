@@ -14,6 +14,7 @@ Update this file after every meaningful implementation change.
 
 - Ideation and planning (2026-09-13): product shape, feature set, tech stack, open items.
 - ideation.md (README staging), ui-reference.md (peer's screen reference).
+- video/storyboard.md, video/vo-script.md, video/claude-design-prompt.md, video/davinci-timeline.md (2026-09-13): scene-by-scene storyboard, matched VO script (~640 words), Claude Design animation brief, and DaVinci timeline/track/render spec - full handoff chain ready once Canva screens exist and clips/VO are recorded.
 
 ## In Progress
 
