@@ -97,12 +97,12 @@ Comparison table:
 - **Voice: browser Web Speech API for speech-to-text, with a text fallback.** No server cost for the prototype. Constraint and known risk: `SpeechRecognition` support is inconsistent on iOS Safari, so the text fallback is required, not optional. Server-side transcription (Deepgram or Whisper) is the upgrade if voice must be reliable in a loud demo hall.
 - **Proactive nudges: polling or on-open checks.** The app recomputes capacity when opened or on a timer. Zero extra infrastructure, and enough to demo the assistant acting.
 
-**System architecture diagram.**
-```markdown
-![](assets/System_Architecture_Diagram.png)
-```
+**System architecture diagram**
 
-**Build plan and scope (narrow on purpose).**
+![System Architechture Diagram](assets/System_Architecture_Diagram.png)
+
+
+**Build plan and scope**
 The build phase ships concentrates on a narrow, functional app loop deployed live on Vercel.
 
 - Five area capacity visualizer rendering dynamic score calculations.
