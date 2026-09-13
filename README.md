@@ -67,10 +67,6 @@ Boards for the peer to draw in Canva and embed here. Each needs a 1-2 line capti
 
 **UI Prototype:** [Public Link]
 
-Check that it opens in an incognito window. This can be a link to Figma, Canva, Netlify, Vercel or any other board where you showcase your UI. It can be clickable with hyperlinks or simply ordered screenshots.
-
-We recommend you embed or link 4–8 key screens as images, with a caption on each explaining the interaction.
-
 ## 4. What Makes It Different
 
 - **The assistant acts, it does not just store.** You talk to it and it runs tool calls: rebalance my week, push this back, suggest a break. To-do apps hold your tasks and wait; Chillabus does something about them.
