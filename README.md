@@ -97,17 +97,15 @@ Optional comparison table:
 - **Voice: browser Web Speech API for speech-to-text, with a text fallback.** No server cost for the prototype. Constraint and known risk: `SpeechRecognition` support is inconsistent on iOS Safari, so the text fallback is required, not optional. Server-side transcription (Deepgram or Whisper) is the upgrade if voice must be reliable in a loud demo hall.
 - **Proactive nudges: polling or on-open checks.** The app recomputes capacity when opened or on a timer. Zero extra infrastructure, and enough to demo the assistant acting.
 
-**Build plan and scope (narrow on purpose).**
-The build phase ships, end to end and deployed on Vercel:
-
-- the capacity visualiser,
-- the daily check-in,
-- quick-add,
-- voice input with a text fallback, and
-- one working assistant tool loop: rebalance-my-week.
-
-Out of scope for the build phase: stress trends over time, chaining several tools in one turn, and calendar import.
-
 **System architecture diagram.** (Optional, if you feel it would help the reviewers understand your architecture better.)
 
-**Build plan & scope.** Explicitly tell the reviewer what you plan to build during the building phase. Narrow scope will read as realistic and feasible, not as a lack of ambition.
+**Build plan and scope (narrow on purpose).**
+The build phase ships concentrates on a narrow, functional app loop deployed live on Vercel.
+
+- Five area capacity visualizer rendering dynamic score calculations.
+- Daily check-in module updating area weights.
+- Quick-add task dialogue supporting effort rating and area tagging.
+- Voice input modal pairing Web Speech recognition with text fallback.
+- End-to-end agentic tool loop.
+
+Out of scope for the build phase: Historical stress analytics, multi-tool chained conversational loops and third-party calendar or Learning Management System (LMS) timetable synchronization.
