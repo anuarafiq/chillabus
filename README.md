@@ -3,7 +3,7 @@
 **Team:** Anuar Afiq, Siti Zafirah, Fawwaz 'Arash
 **Problem Statement:** Stress & Workload Manager
 **Video Presentation:** [Unlisted Youtube Link]
-**Presentation Slides:** [Public Link]
+**Presentation Slides:** https://canva.link/wri1c2mi0025n60
 
 ## 1. Project Overview
 
@@ -65,7 +65,7 @@ Boards for the peer to draw in Canva and embed here. Each needs a 1-2 line capti
 
 ## 3. Design & Prototype
 
-**UI Prototype:** [Public Link]
+**UI Prototype:** [https://canva.link/4kantpkx227qm7m]
 
 ## 4. What Makes It Different
 
@@ -74,7 +74,7 @@ Boards for the peer to draw in Canva and embed here. Each needs a 1-2 line capti
 - **It pushes back for you.** The app watches for overload and offers a lighter week on its own, rather than waiting for you to notice and fix it yourself.
 - **Anti-guilt by design.** Playful and motivating, but no streaks and no broken-chain shame. Guilt mechanics add load to the exact person we are trying to relieve, so we left them out on purpose. This is a deliberate stance, not a missing feature.
 
-Optional comparison table:
+Comparison table:
 
 | | Notion / to-do | Finch / wellbeing | Structured / calendar | Chillabus |
 | --- | --- | --- | --- | --- |
@@ -99,9 +99,8 @@ Optional comparison table:
 
 **System architecture diagram.**
 ```markdown
-![System Architecture Diagram](System Architecture Diagram.png)
+![System Architecture Diagram](assets/System%20Architecture%20Diagram.png)
 ```
-
 
 **Build plan and scope (narrow on purpose).**
 The build phase ships concentrates on a narrow, functional app loop deployed live on Vercel.
