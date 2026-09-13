@@ -49,7 +49,6 @@ Chosen ideas first.
 | Calendar or timetable import as the main input | Dropped for this scope. Heavy to build and to fake convincingly, and not needed to prove the concept. Possible later. |
 | Gamified streaks and daily-chain rewards | Dropped on purpose. Streak guilt piles more pressure on an already overloaded student, which works against the whole point of the app. |
 
-
 ### 2.2 Ideation Boards
 
 Boards for the peer to draw in Canva and embed here. Each needs a 1-2 line caption.
