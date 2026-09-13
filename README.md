@@ -99,7 +99,7 @@ Comparison table:
 
 **System architecture diagram.**
 ```markdown
-![System Architecture Diagram](assets/System%20Architecture%20Diagram.png)
+![](assets/System_Architecture_Diagram.png)
 ```
 
 **Build plan and scope (narrow on purpose).**
