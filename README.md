@@ -63,14 +63,6 @@ Boards for the peer to draw in Canva and embed here. Each needs a 1-2 line capti
 ![Problem tree](boards/problem-tree.png)
 ```
 
-### 2.3 Mentor Consultation
-
-| Date | Mentor | Feedback Received | What Was Changed |
-| --- | --- | --- | --- |
-| | | | |
-
-Even if you disagreed with a piece of feedback, you can say so and explain why. You will not be penalised for doing something against a mentor's advice, it will still count as engaging with it.
-
 ## 3. Design & Prototype
 
 **UI Prototype:** [Public Link]
