@@ -63,7 +63,7 @@ Boards for the peer to draw in Canva and embed here. Each needs a 1-2 line capti
 
 ## 3. Design & Prototype
 
-**UI Prototype:** [https://canva.link/4kantpkx227qm7m]
+**UI Prototype:** https://canva.link/4kantpkx227qm7m
 
 ## 4. What Makes It Different
 
