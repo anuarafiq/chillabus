@@ -36,8 +36,6 @@ Feature set:
 
 ### 2.1 Ideas We Considered
 
-Chosen ideas first.
-
 | Idea | Why it was kept or dropped |
 | --- | --- |
 | Capacity visualiser as the hero, five-area load at a glance **(Chosen)** | Answers the brief's core problem directly: students do not know how much they are carrying. Strongest single-glance value, and it anchors every other feature. |
@@ -50,13 +48,6 @@ Chosen ideas first.
 | Gamified streaks and daily-chain rewards | Dropped on purpose. Streak guilt piles more pressure on an already overloaded student, which works against the whole point of the app. |
 
 ### 2.2 Ideation Boards
-
-Boards for the peer to draw in Canva and embed here. Each needs a 1-2 line caption.
-
-- **Problem tree** - root causes of student burnout at the bottom (too many commitments, no single view of load, saying yes by default), symptoms at the top. Shows why a single load view matters.
-- **Feature mindmap** - "load" in the centre, branching to the five areas and then to the features that act on each. Shows how the visualiser and the assistant tools connect.
-- **Affinity / crazy-eights of dropped ideas** - the rejected ideas from 2.1 grouped by why they were cut. Shows the messy thinking, which the reviewers want to see.
-- **User flow** - the screen-to-screen path (see ui-reference.md). Shows how a student moves from opening the app to acting on an overload.
 
 ![Ideation Board](assets/Ideation%20Board.png)
 
@@ -85,8 +76,6 @@ Comparison table:
 ## 5. Technical Architecture & Feasibility
 
 **This round is UI-only.** The prototype is a Canva screen set, no backend or data logic yet. The stack below is the plan for the coding build phase.
-
-**Tech stack.**
 
 - **Frontend and backend: Next.js (App Router) as a mobile-first PWA, hosted on Vercel.** One repo for pages, the API, and the assistant. Fast to build, installable on a phone, and Vercel gives us free hosting with HTTPS by default. Constraint: PWA install and background behaviour on iOS is limited.
 - **Auth: Clerk.** Prebuilt, mobile-friendly sign-in components and a Vercel-native integration, so we spend build time on the product, not on auth plumbing. Constraint: a second vendor alongside the database, and free-tier active-user limits.
