@@ -59,9 +59,8 @@ Boards for the peer to draw in Canva and embed here. Each needs a 1-2 line capti
 - **Affinity / crazy-eights of dropped ideas** - the rejected ideas from 2.1 grouped by why they were cut. Shows the messy thinking, which the reviewers want to see.
 - **User flow** - the screen-to-screen path (see ui-reference.md). Shows how a student moves from opening the app to acting on an overload.
 
-```markdown
-![Problem tree](boards/problem-tree.png)
-```
+![Ideation Board](assets/Ideation%20Board.png)
+
 
 ## 3. Design & Prototype
 
@@ -99,7 +98,7 @@ Comparison table:
 
 **System architecture diagram**
 
-![System Architechture Diagram](assets/System_Architecture_Diagram.png)
+![System Architechture Diagram](assets/System%20Architecture%20Diagram.png)
 
 
 **Build plan and scope**
