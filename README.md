@@ -2,7 +2,7 @@
 
 **Team:** Anuar Afiq, Siti Zafirah, Fawwaz 'Arash
 **Problem Statement:** Stress & Workload Manager
-**Video Presentation:** [Unlisted Youtube Link]
+**Video Presentation:** https://youtu.be/nXHnSIID52Y
 **Presentation Slides:** https://canva.link/wri1c2mi0025n60
 
 ## 1. Project Overview
@@ -77,7 +77,7 @@ Comparison table:
 
 **This round is UI-only.** The prototype is a Canva screen set, no backend or data logic yet. The stack below is the plan for the coding build phase.
 
-- **Frontend and backend: Next.js (App Router) as a mobile-first PWA, hosted on Vercel.** One repo for pages, the API, and the assistant. Fast to build, installable on a phone, and Vercel gives us free hosting with HTTPS by default. Constraint: PWA install and background behaviour on iOS is limited.
+- **Frontend and backend: React + Next.js (App Router) as a mobile-first PWA, hosted on Vercel.** One repo for pages, the API, and the assistant. Fast to build, installable on a phone, and Vercel gives us free hosting with HTTPS by default. Constraint: PWA install and background behaviour on iOS is limited.
 - **Auth: Clerk.** Prebuilt, mobile-friendly sign-in components and a Vercel-native integration, so we spend build time on the product, not on auth plumbing. Constraint: a second vendor alongside the database, and free-tier active-user limits.
 - **Database: Neon (serverless Postgres) with Drizzle ORM.** Typed queries and a generous free tier that suits serverless. Constraint: we wire the Clerk user id into Neon as a foreign key ourselves, since auth and data are separate vendors.
 - **Assistant: OpenAI API with tool/function calling, run inside Next.js route handlers so the key stays server-side.** Tools map to the features: add or adjust a task, rebalance the week, suggest recovery, compute capacity. Constraint: token cost per assistant turn; we cap the loop. If voice grows past text, the in-vendor upgrade is the OpenAI Realtime API for speech-to-speech.
